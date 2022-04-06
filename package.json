@@ -1,0 +1,22 @@
+{
+  "name": "devdiary",
+  "version": "1.0.0",
+  "description": "It is a mongodb based application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saurabhsahab/DevDiary.git"
+  },
+  "author": "SAURABH UPADHAYAY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saurabhsahab/DevDiary/issues"
+  },
+  "homepage": "https://github.com/Saurabhsahab/DevDiary#readme",
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
