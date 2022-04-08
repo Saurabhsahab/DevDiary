@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Saurabhsahab/DevDiary#readme",
   "dependencies": {
-    "mongodb": "^4.4.1"
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.10",
+    "validator": "^13.7.0"
   }
 }
