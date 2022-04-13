@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
 
-mongoose.connect("mongodb://localhost:27107/devdiary");
+mongoose.connect("mongodb://localhost:27017/devdiary");
 
 const User = mongoose.model("User", {
   name: {
@@ -12,6 +12,7 @@ const User = mongoose.model("User", {
   email: {
     type: String,
     required: true,
+    trim: true,
     validate(value) {
       if (!validator.isEmail(value)) {
         throw new Error("Email is invalid");
